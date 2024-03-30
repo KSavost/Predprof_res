@@ -4,7 +4,6 @@ f_out = open('new_time.txt', 'w', encoding='utf-8')
 #открываем файл на запись
 f1 = [i.strip().split(',') for i in f]
 #создаем список с данными о станциях
-print(f1)
 for i in f1:
     t1 = i[-1]
     t2 = i[-2].split(':')
