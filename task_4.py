@@ -23,5 +23,5 @@ for i in d.keys():
 print(res_arr)
 #выводим получившийся список
 for i in res_arr:
-    f_out.write(' '.join(i))
+    f_out.write(' '.join(i) + '\n')
     #записываме результат в итоговый файл
